@@ -1,0 +1,44 @@
+h2{
+    text-decoration-line: underline;
+font: bold;
+}
+.link1{
+    color: blue;
+}
+.link1 a{
+    text-decoration-line: underline; 
+    color: rgb(254, 229, 6);
+}
+.link2 a{
+    text-decoration-line: underline; 
+    color: rgb(254, 229, 6);
+}
+.link3 a{
+    text-decoration-line: underline; 
+    background-color: rgb(254, 229, 6);
+    color: red;
+}
+.list1 a{
+color: red;
+text-decoration-line: underline;
+}
+.list1_m{
+    margin: 20px 0;
+}
+.list1_m span{
+    font: bold;
+    font-weight: bold;
+   font-size: larger;
+}
+.list2{
+    color: blue;
+}
+.list2 a{
+    color: red;
+    text-decoration-line: underline;
+}
+.list3{
+    color: blue;
+    list-style-type: none;
+margin-left: 50px;
+}

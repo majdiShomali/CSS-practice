@@ -1,0 +1,30 @@
+#articles{
+    background: rgba(255, 255, 0, 0.219); 
+    width: 500px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    }
+    .firstarticle {
+    display: flex;
+    
+    
+    }
+    .sliderArticle{
+        height: 50px;
+    display:flex;
+    overflow-y: auto;
+    border: 1px solid black;
+    margin: 5px;
+    }
+    .secondArticle {
+        display: flex;
+    }
+    .box{
+    margin: 5px;
+    }
+    .box article{
+       background: rgba(128, 128, 128, 0.481);
+       margin: 5px;
+        }
