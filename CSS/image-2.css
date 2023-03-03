@@ -1,30 +1,55 @@
-#articles{
-    background: rgba(255, 255, 0, 0.219); 
-    width: 500px;  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    }
-    .firstarticle {
-    display: flex;
     
+    main{
+        background: rgba(226, 243, 133, 0.568);
+        width: 500px;  
+        border-right: 3px solid black; 
+    }
+    .main{
+        width: 500px;
+    display: grid;
+    grid-auto-rows: minmax(50px,auto);
+    grid-template-areas: 
+"article1 article1 article1"
+"article1 article1 article1"
+"article2 article2 article2"
+"article3 article3 article3"
+"article3 article3 article3"
+    ;
+    grid-gap: 10px;
     
     }
-    .sliderArticle{
-        height: 50px;
-    display:flex;
-    overflow-y: auto;
-    border: 1px solid black;
-    margin: 5px;
+    .article1{
+    grid-area: article1 ;
+    display: grid;
+   grid-template-columns:repeat(3,1fr)  ;
+    grid-gap: 10px;
     }
-    .secondArticle {
-        display: flex;
+
+
+
+
+
+    .article2{
+     grid-area: article2 ;  
+     height: 50px;
+     font-weight: bold;
+     overflow-y: auto;
+     border-top: 3px solid black;
+     border-bottom: 3px solid black;
     }
-    .box{
-    margin: 5px;
+
+
+    .article3{
+     grid-area: article3 ; 
+     display: grid;
+     grid-template-columns:repeat(3,1fr)  ;
+    grid-gap: 10px;  
     }
     .box article{
-       background: rgba(128, 128, 128, 0.481);
+        width: 150px;
+        height: 100px;
+       background: rgba(128, 128, 128, 0.453);
        margin: 5px;
-        }
+       overflow-y: hidden;
+       }
+

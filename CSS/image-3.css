@@ -16,7 +16,7 @@ font: bold;
 .link3 a{
     text-decoration-line: underline; 
     background-color: rgb(254, 229, 6);
-    color: red;
+    color: rgb(168, 81, 5);
 }
 .list1 a{
 color: red;
@@ -25,7 +25,7 @@ text-decoration-line: underline;
 .list1_m{
     margin: 20px 0;
 }
-.list1_m span{
+#listone0 {
     font: bold;
     font-weight: bold;
    font-size: larger;
@@ -40,5 +40,7 @@ text-decoration-line: underline;
 .list3{
     color: blue;
     list-style-type: none;
-margin-left: 50px;
+}
+.firstlist{
+    font-weight: bold;
 }
