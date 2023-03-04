@@ -9,15 +9,16 @@
     display: grid;
     grid-auto-rows: minmax(50px,auto);
     grid-template-areas: 
-"article1 article1 article1"
-"article1 article1 article1"
-"article2 article2 article2"
-"article3 article3 article3"
-"article3 article3 article3"
+     "article1 article1 article1"
+     "article1 article1 article1"
+     "article2 article2 article2"
+     "article3 article3 article3"
+     "article3 article3 article3"
     ;
     grid-gap: 10px;
     
     }
+
     .article1{
     grid-area: article1 ;
     display: grid;
@@ -25,19 +26,14 @@
     grid-gap: 10px;
     }
 
-
-
-
-
     .article2{
      grid-area: article2 ;  
      height: 50px;
      font-weight: bold;
      overflow-y: auto;
-     border-top: 3px solid black;
-     border-bottom: 3px solid black;
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
     }
-
 
     .article3{
      grid-area: article3 ; 
@@ -45,6 +41,7 @@
      grid-template-columns:repeat(3,1fr)  ;
     grid-gap: 10px;  
     }
+    
     .box article{
         width: 150px;
         height: 100px;
