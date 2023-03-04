@@ -1,29 +1,23 @@
     
     main{
         background: rgba(226, 243, 133, 0.568);
-        width: 500px;  
+        max-width: 500px;  
         border-right: 3px solid black; 
     }
     .main{
-        width: 500px;
+    
     display: grid;
     grid-auto-rows: minmax(50px,auto);
     grid-template-areas: 
      "article1 article1 article1"
-     "article1 article1 article1"
      "article2 article2 article2"
-     "article3 article3 article3"
      "article3 article3 article3"
     ;
     grid-gap: 10px;
-    
     }
 
     .article1{
     grid-area: article1 ;
-    display: grid;
-   grid-template-columns:repeat(3,1fr)  ;
-    grid-gap: 10px;
     }
 
     .article2{
@@ -37,16 +31,18 @@
 
     .article3{
      grid-area: article3 ; 
-     display: grid;
-     grid-template-columns:repeat(3,1fr)  ;
-    grid-gap: 10px;  
+    }  
+    .box{
+        display: grid;
+        grid-template-columns:repeat(3,1fr)  ;
+       grid-gap: 10px;  
     }
-    
     .box article{
-        width: 150px;
-        height: 100px;
+        max-width: 150px; 
+        max-height: 100px;
        background: rgba(128, 128, 128, 0.453);
        margin: 5px;
-       overflow-y: hidden;
+       overflow: hidden; 
+       /* overflow auto to show the article */
        }
 
