@@ -1,0 +1,27 @@
+div{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: yellow;
+}
+div:nth-child(even){
+background: green;
+position: relative;
+top: 20px;
+}
+
+p{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+background: red;
+text-align: center;
+border: 3px solid black;
+color: white;
+}
+
+p:nth-child(even){
+    display: none;
+}
+
+
